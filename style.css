@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #fff;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 135px;
+}
+.container nav h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.container nav h1 span {
+  color: #f58634;
+  font-size: 30px;
+  text-decoration: none;
+}
+.container nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+}
+.container nav ul li {
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.2s;
+  color: #828282;
+  cursor: pointer;
+}
+.container nav ul li:hover {
+  color: #000;
+}
+.container nav ul button {
+  font-size: 16px;
+  font-weight: 400;
+  background: #f58634;
+  border: 1px solid #f58634;
+  padding: 19px 43px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+.container nav ul button:hover {
+  background: #fff;
+  color: #000;
+}
+.container .hero {
+  padding: 50px 100px 30px 100px;
+}
+.container .hero .text-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.container .hero .text-c h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.container .hero .text-c .mark {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.container .hero .text-c .mark p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #828282;
+}
+.container .hero .text-c .mark .line {
+  width: 38px;
+  height: 3px;
+  background: #f58634;
+  margin: 10px;
+}
+.container .hero .filter {
+  max-width: 900px;
+  padding: 30px 40px;
+  margin: 0 auto;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  transform: translateY(-50%);
+  box-shadow: 0px 12px 45px rgba(86, 86, 86, 0.1);
+}
+.container .hero .filter .filter-identity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.container .hero .filter .filter-identity .select select {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container .hero .filter .filter-identity .select p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #828282;
+}
+.container .hero .filter button {
+  font-size: 16px;
+  font-weight: 400;
+  background: #f58634;
+  border: 1px solid #f58634;
+  padding: 19px 43px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+.container .hero .filter button:hover {
+  background: #fff;
+  color: #000;
+}
+.container .direction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.container .direction ul h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.container .direction ul p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f58634;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container .direction ul span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #828282;
+  cursor: pointer;
+}
+.container .direction p {
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container .cards-c {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .cards-c .card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 350px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.container .cards-c .card .img-c {
+  position: relative;
+  margin-bottom: 10px;
+}
+.container .cards-c .card .img-c .like {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 100;
+  cursor: pointer;
+}
+.container .cards-c .card .img-c span {
+  position: absolute;
+  padding: 16px;
+  color: #f58634;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+.container .cards-c .card h1 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.container .cards-c .card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #828282;
+}
+.container .cards-c .card span {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f58634;
+}
+.container nav {
+  padding: 50px 100px;
+}
+.container nav h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.container nav span {
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container .blog-c {
+  padding: 0 100px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.container .blog-c .left-c .img {
+  position: relative;
+}
+.container .blog-c .left-c .img .home4 {
+  width: 100%;
+}
+.container .blog-c .left-c .img .avatar {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.container .blog-c .left-c .img .avatar .info h4 {
+  font-weight: 500;
+  font-size: 13px;
+}
+.container .blog-c .left-c .img .avatar .info p {
+  font-weight: 500;
+  font-size: 10px;
+  color: #828282;
+}
+.container .blog-c .left-c h1 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 24px;
+}
+.container .blog-c .left-c p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #828282;
+}
+.container .blog-c .right-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.container .blog-c .right-c .job {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+.container .blog-c .right-c .job .txt h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.container .blog-c .right-c .job .txt p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #828282;
+  margin-top: 32px;
+}
+.container footer {
+  padding: 73px 250px;
+  background: #f58634;
+  margin: 130px 100px 50px 100px;
+}
+.container footer h1 {
+  width: 700px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.container footer .inpt-c {
+  width: 740px;
+  position: relative;
+}
+.container footer .inpt-c input {
+  width: 100%;
+  padding: 40px 32px;
+}
+.container footer .inpt-c button {
+  padding: 24px 40px;
+  font-weight: 400;
+  font-size: 16px;
+  background: #f58634;
+  border: 1px solid #f58634;
+  color: #fff;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.container footer .inpt-c button:hover {
+  background: #fff;
+  color: #000;
+}
+.container .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.container .social p {
+  color: #828282;
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+}
+.container .social .social-icon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.container .social .social-icon img {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
